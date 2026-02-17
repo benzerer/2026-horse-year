@@ -11,9 +11,6 @@
     imageSrc = getRandomImage();
   }
 
-  onMount(() => {
-    imageSrc = getRandomImage();
-  });
 </script>
 
 <div class="flex flex-col items-center justify-center gap-6 p-4 transition-transform">
