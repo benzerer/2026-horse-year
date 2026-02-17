@@ -16,9 +16,9 @@
   });
 </script>
 
-<div class="flex flex-col items-center justify-center gap-6 p-8 rounded-xl bg-white/90 shadow-lg hover:scale-105 hover:shadow-2xl transition-transform">
-  <button on:click={handleRandomize} class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform hover:scale-110">สุ่มเลย</button>
+<div class="flex flex-col items-center justify-center gap-6 p-4 transition-transform">
+  <button on:click={handleRandomize} class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-full transition-transform hover:scale-110">สุ่มเลยยย!!</button>
   {#if imageSrc}
-    <img src={imageSrc} alt="Random result" class="max-w-xs" />
+    <img src={imageSrc} alt="Random result" class="max-w-xs rounded-2xl shadow-lg" />
   {/if}
 </div>
